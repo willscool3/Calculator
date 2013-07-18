@@ -200,6 +200,7 @@ namespace Calculator
         }
         #endregion
 
+        #region Extra Stuff
         private void txt_numberDisplay_TextChanged(object sender, EventArgs e)
         {
 
@@ -209,5 +210,11 @@ namespace Calculator
         {
             
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+        #endregion
     }
 }
